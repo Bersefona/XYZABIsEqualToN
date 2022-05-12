@@ -1,10 +1,12 @@
 n = 1056
 tmpl1, tmpl2 = [], []
 final = []
+
 for i in range(71, 100):
     c = i
     if str(i // 10) not in '0156' and str(i % 10) not in '0156':
         tmpl1.append(c)
+        
 for i in range(100, 988):
     c = i
     if str(i % 10) in '0156':
